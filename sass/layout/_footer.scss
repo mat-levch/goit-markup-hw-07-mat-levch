@@ -206,12 +206,14 @@
     background-color: rgba(255, 255, 255, .1);
     cursor: pointer;
     transition: background var(--time-function), color var(--time-function);
-}
 
-.social__svg-footer-container:hover,
-.social__svg-footer-container:focus {
+    &:hover,
+    &:focus {
     border-radius: 50px;
     color: var(--primary-background-color);
     background-color: var(--focus-color);
 }
+
+}
+
 

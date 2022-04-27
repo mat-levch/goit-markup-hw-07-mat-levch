@@ -599,8 +599,7 @@ p {
   transition: background var(--time-function), color var(--time-function);
 }
 
-.social__svg-footer-container:hover,
-.social__svg-footer-container:focus {
+.social__svg-footer-container:hover, .social__svg-footer-container:focus {
   border-radius: 50px;
   color: var(--primary-background-color);
   background-color: var(--focus-color);
